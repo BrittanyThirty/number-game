@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Number game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Check your lucky number</h1>
+
+      <form id="lucky-number">
+        <div class="form-group">
+          <label for="number">Enter a number:</label>
+          <input id="number" type="number">
+        </div>
+
+        <button type="submit" class="btn">Check!</button>
+      </form>
+
+      <div id="numberItself">
+        <p><span class="numberItself"></span> is your lucky number.</p>
+      </div>
+      <div id="numberContainingZero">
+        <p>Beep! like 20.</p>
+      </div>
+      <div id="numberContainingOne">
+        <p>Boop! like 12.</p>
+      </div>
+      <div id="numberContainingOneZero">
+        <p>Beep! Boop! like 10.</p>
+      </div>
+      <div id="numberDivisibleByThree">
+        <p>I'm sorry, Dave. I'm afraid I can't do that. like 27.</p>
+      </div>
+      <div id="numberContainingZeroDThree">
+        <p>Special! like 30.</p>
+      </div>
+      <div id="numberContainingOneDThree">
+        <p>Special! like 12.</p>
+      </div>
+      <div id="numberContainingZeroOneDThree">
+        <p>Special! like 102.</p>
+      </div>
+    </div>
+  </body>
+</html>
