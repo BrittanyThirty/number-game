@@ -10,44 +10,59 @@
   </head>
   <body>
     <div class="container">
-      <h1>Check your number</h1>
-
-      <form id="number-game">
-        <div class="form-group">
-          <label for="number">Enter a number:</label>
-          <input id="number" type="number">
+      <div class="jumbotron">
+        <h1>I will read your mind......</h1>
+      </div>
+        <p>I will show you your fate today......A number in your mind now......</p>
+        <div class="row">
+           <div class="col-md-6">
+              <h2>Click <strong><span id="sorting">sorting hat</span></strong> to see......</h2>
+              <img src="img/sortinghat.jpg" alt="sortinghat picture">
+              <div class="clickable">
+                <form id="number-game">
+                  <br>
+                  <div class="form-group">
+                    <label for="number">Give me your number:</label>
+                    <input id="number" type="number">
+                  </div>
+                  <button type="submit" class="btn">Check today!</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="img/map.gif" alt="map picture" id="map">
+              <div id="numberItself" class="resultDisplay">
+              <br>
+              <p>Read this list loudly: </p>
+              <div class="boxmodel">
+                <span class="numberItself"></span>
+              </div>
+              </div>
+              <div id="numberContainingZero" class="resultDisplay">
+                <p>Beep! Gryffindor!</p>
+              </div>
+              <div id="numberContainingOne" class="resultDisplay">
+                <p>Boop! Slytherin!</p>
+              </div>
+              <div id="numberContainingOneZero" class="resultDisplay">
+                <p>Beep! Boop! Hufflepuff!</p>
+              </div>
+              <div id="numberDivisibleByThree" class="resultDisplay">
+                <p>I'm sorry, Dave. I'm afraid I can't do that.	Maybe
+                  Ravenclaw!</p>
+              </div>
+              <div id="numberContainingZeroDThree" class="resultDisplay">
+                <p>You will meet someone special.</p>
+              </div>
+              <div id="numberContainingOneDThree" class="resultDisplay">
+                <p>Watch your step today.</p>
+              </div>
+              <div id="numberContainingZeroOneDThree">
+                <p>Believe your partner today.</p>
+              </div>
+            </div>
+            </div>
         </div>
-
-        <button type="submit" class="btn">Check!</button>
-      </form>
-
-      <div id="numberItself" class="resultDisplay">
-        <br>
-        <p>The number list is: </p>
-        <span class="numberItself"></span>
-      </div>
-
-      <div id="numberContainingZero" class="resultDisplay">
-        <p>Beep! like 20.</p>
-      </div>
-      <div id="numberContainingOne" class="resultDisplay">
-        <p>Boop! like 12.</p>
-      </div>
-      <div id="numberContainingOneZero" class="resultDisplay">
-        <p>Beep! Boop! like 10.</p>
-      </div>
-      <div id="numberDivisibleByThree" class="resultDisplay">
-        <p>I'm sorry, Dave. I'm afraid I can't do that. like 27.</p>
-      </div>
-      <div id="numberContainingZeroDThree" class="resultDisplay">
-        <p>Special! like 30.</p>
-      </div>
-      <div id="numberContainingOneDThree" class="resultDisplay">
-        <p>Special! like 12.</p>
-      </div>
-      <div id="numberContainingZeroOneDThree">
-        <p>Special! like 102.</p>
-      </div>
     </div>
   </body>
 </html>

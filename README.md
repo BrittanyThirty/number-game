@@ -1,4 +1,4 @@
-# luckyNumber WebPage
+# Number-game WebPage
 
 #### This is a WebPage to play a number game.
 
@@ -6,39 +6,53 @@
 
 ## Description
 
-This website collects your lucky number and check if this number could be divisible by 3. In addtion, if the number contains 1 or 0, some funny word will show on the webpage.
+This webpage will show some funny words if user input a number.
 
 ## Setup/Installation Requirements
 
-* Open with browser
-* Input your number
-* Submit the form
-* Result will show on the page
+* Copy repository from GitHub to your computer using Terminal command $ git clone and then open index.html in a browser, or
+* Open [link](https://QIANQIANHU.github.io/number-game) in your browser.
 
 ## Specifications
-* The program recognizes numbers that divisible by 3.
-#### Input Example:
-6
-#### Output Example:
-"I'm sorry, Dave. I'm afraid I can't do that."
 
-* The program recognizes numbers that contain a digital 1.
-#### Input Example:
-12
-#### Output Example:
-"Boop!"
+* The program recognizes a number divisible by 3.
+  * Input Example: 27
+  * Output Example: "I'm sorry, Dave. I'm afraid I can't do that.	Maybe Ravenclaw!"
 
-* The program recognizes numbers that contain a digital 0.
-#### Input Example:
-20
-#### Output Example:
-"Beep!"
+* The program recognizes a number that contains a 1.
+  * Input Example: 14
+  * Output Example: "Boop! Slytherin!"
 
+* The program recognizes a number that contains a 0.
+  * Input Example: 20
+  * Output Example: "Beep! Gryffindor!"
 
+* The program recognizes number that divisible by 3, contains 1 and 0.
+  * Input Example: 102
+  * Output Example: "Believe your partner today."
+
+* The program recognizes number that divisible by 3 and contains 1.
+  * Input Example: 12
+  * Output Example: "Watch your step today."
+
+* The program recognizes number that divisible by 3 and contains 0.
+  * Input Example: 30
+  * Output Example: "You will meet someone special."
+
+* The program recognizes number that contains 1 and 0.
+  * Input Example: 10
+  * Output Example: "Beep! Boop! Hufflepuff!"
 
 ## Technologies Used
 
-HTML, CSS, JAVASCRIPT
+* HTML
+* CSS
+* JavaScript
+* jQuery
+
+## Support and contact details
+
+Contact email: huqianqian@ymail.com
 
 ### License
 
