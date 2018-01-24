@@ -13,6 +13,10 @@ margin: 4px;
 background-color: #e1ca84;
 }
 
+.jumbotron {
+  background-color: #F3EBD4;
+}
+
 #sorting {
   cursor: pointer;
   color: #5e5555;
