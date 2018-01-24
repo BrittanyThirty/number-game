@@ -2,7 +2,7 @@
 
 #### This is a WebPage to play a number game.
 
-#### By Qianqian Hu
+#### By Qianqian Hu 2018/01/19
 
 ## Description
 
